@@ -15,7 +15,15 @@ To Run the Biopython scripts, you'll have to install some packages in Pycharm. T
 The second project was about GWAS and how to use the tools to work with the genotypic data. This project is divided in many smaller scripts that represent every step of the process. 
 This project was run on the NARVAL server explaining why some lines in the scripts explain how to install the different tools in this new environment. 
 
-The sabre.sh files includes the scripts to sort the sequences accroding to their barcodes.
+The sabre.sh file includes the scripts to sort the sequences accroding to their barcodes. This script uses the tool sabre.
+
+The cutadapt.sh file regroup all the scripts that are necessary to cut the adapters from the sequences. The files at the end of this process are fastq files. This script uses the tool cutadapt.
+
+The bwa.sh file includes the scripts to convert the fastq to sam files. This script uses the bwa tool. 
+
+The sam2bam.sh file explains the scripts to convert the sam files into bam files and it uses the samtools tool. 
+
+The final file, bcftools.sh, takes the bam files and makes the variant calls. This step uses bcftools. 
 
 
 All the scripts are working, the only issue if you want to run them is that you'll need to change the various trajectories to your own on your computer. 
