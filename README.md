@@ -14,7 +14,8 @@ Once you have Pycharm Downloaded, make sure that you are running the lateast ver
 To Run the Biopython scripts, you'll have to install some packages in Pycharm. Those are the packages you'll need for this project: numpy, biopython, matplolib and pylablib.
 
 ## GWAS – Data sorting
-The second project was about GWAS and how to use the tools to work with the genotypic data. This project is divided in many smaller scripts that represent every step of the process. 
+
+The second project was about GWAS and how to use the tools to work with the genotypic data. This project is divided in many smaller scripts that represent every step of the process. The main file on github for this project is called Datasorting.
 This project was run on the NARVAL server explaining why some lines in the scripts explain how to install the different tools in this new environment. 
 
 ### Sabre
@@ -33,9 +34,27 @@ The sam2bam.sh file explains the scripts to convert the sam files into bam files
 ### Bcftools
 The final file, bcftools.sh, takes the bam files and makes the variant calls. This step uses bcftools. 
 
+## RStudio
+This third project involves R Studio. 
+For this you will need to install R Studio on your computer. Here’s the link to install this platform: https://posit.co/download/rstudio-desktop/
 
+For the scripts, the different documents are in the Ranalysis file in the GWAS bigger file.
+
+There is two main parts in this project that are presented in two distinct documents.
+
+### Gapit
+The first one involves Gapit. This script leads to the creation of a heatmap to compare the phenotypes between your various genotypes. 
+
+Here’s a citation for GAPIT and how it works and what you can obtain from this tool. 
+Wang J., Zhang Z., GAPIT Version 3: Boosting Power and Accuracy for Genomic Association and Prediction, Genomics, Proteomics & Bioinformatics (2021), doi: https://doi.org/10.1016/j.gpb.2021.08.005.
+
+### Mvp
+The second one leads to the creation of a Manhattan plot to identify SNPs associated with certain phenotypes.
+
+## Conclusion
 All the scripts are working, the only issue if you want to run them is that you'll need to change the various trajectories to your own on your computer. 
 
-If you have any issues or questions about this scripts or those tools you can join me by email on: samuel.gagnon.19@ulaval.ca
+If you have any issues or questions about those scripts or those tools you can join me by email on: samuel.gagnon.19@ulaval.ca
 
 Have a nice programming session. 
+
