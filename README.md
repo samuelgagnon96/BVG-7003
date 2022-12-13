@@ -13,18 +13,24 @@ Once you have Pycharm Downloaded, make sure that you are running the lateast ver
 
 To Run the Biopython scripts, you'll have to install some packages in Pycharm. Those are the packages you'll need for this project: numpy, biopython, matplolib and pylablib.
 
-
+## GWAS – Data sorting
 The second project was about GWAS and how to use the tools to work with the genotypic data. This project is divided in many smaller scripts that represent every step of the process. 
 This project was run on the NARVAL server explaining why some lines in the scripts explain how to install the different tools in this new environment. 
 
+### Sabre
 The sabre.sh file includes the scripts to sort the sequences accroding to their barcodes. This script uses the tool sabre.
 
+### Cutadapt
 The cutadapt.sh file regroup all the scripts that are necessary to cut the adapters from the sequences. The files at the end of this process are fastq files. This script uses the tool cutadapt.
 
+### Bwatools
 The bwa.sh file includes the scripts to convert the fastq to sam files. This script uses the bwa tool. 
 
+
+### Samtools
 The sam2bam.sh file explains the scripts to convert the sam files into bam files and it uses the samtools tool. 
 
+### Bcftools
 The final file, bcftools.sh, takes the bam files and makes the variant calls. This step uses bcftools. 
 
 
@@ -33,16 +39,3 @@ All the scripts are working, the only issue if you want to run them is that you'
 If you have any issues or questions about this scripts or those tools you can join me by email on: samuel.gagnon.19@ulaval.ca
 
 Have a nice programming session. 
-
-
-
-README file R Studio
-
-This third project involves R Studio. 
-For this you will need to install R Studio on your computer. Here’s the link to install this platform: https://posit.co/download/rstudio-desktop/
-
-
-
-Wang J., Zhang Z., GAPIT Version 3: Boosting Power and Accuracy for Genomic Association and Prediction, Genomics, Proteomics & Bioinformatics (2021), doi: https://doi.org/10.1016/j.gpb.2021.08.005.
-
-The first step is to install the packages in the R Studio Library.
