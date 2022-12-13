@@ -1,8 +1,10 @@
 # BVG-7003
 This document was produced during my BVG-7003 class at Laval University. This class is about bioinformatic tools and how to properly use them in our own study. 
 
+## PythonBiopython
 The first project concerned Python and BioPython. 
-For this project, we had to write coding lines based on our notes on the basic functions on Python and Biopython. The file Python.sh shows the python scripts and Biopython.sh file shows the biopython scripts.
+You can find the scripts for this project of the PythonBiopython file on my Github.
+For this project, we had to write coding lines based on our notes on the basic functions of Python and Biopython. The file Python.py shows the python scripts and Biopython.py file shows the biopython scripts.
 This guide could be useful for all new programmer who wants to learn the basics of Python and Biopython.
 
 We used Pycharm to write and run the scripts, so the first step is to download Pycharm on your computer. Here's the link for the free version of Pycharm: https://www.jetbrains.com/pycharm/download/#section=mac
@@ -33,3 +35,14 @@ If you have any issues or questions about this scripts or those tools you can jo
 Have a nice programming session. 
 
 
+
+README file R Studio
+
+This third project involves R Studio. 
+For this you will need to install R Studio on your computer. Here’s the link to install this platform: https://posit.co/download/rstudio-desktop/
+
+
+
+Wang J., Zhang Z., GAPIT Version 3: Boosting Power and Accuracy for Genomic Association and Prediction, Genomics, Proteomics & Bioinformatics (2021), doi: https://doi.org/10.1016/j.gpb.2021.08.005.
+
+The first step is to install the packages in the R Studio Library.
