@@ -34,7 +34,7 @@ The sam2bam.sh file explains the scripts to convert the sam files into bam files
 ### Bcftools
 The final file, bcftools.sh, takes the bam files and makes the variant calls. This step uses bcftools. 
 
-## RStudio
+## GWAS - Ranalysis
 This third project involves R Studio. 
 For this you will need to install R Studio on your computer. Here’s the link to install this platform: https://posit.co/download/rstudio-desktop/
 
